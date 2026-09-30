@@ -1,0 +1,19 @@
+# Local runtime and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+
+# Private drawings, uploads and derived engineering artifacts
+/data/*
+!/data/README.md
+/outputs/
+/baseline/
+/.lavish/
+/preview-*.png
+/legend-*.png
+/Research-and-results.html
+/validation.json
